@@ -10,7 +10,7 @@
         <button class="btn btn-sm btn-outline-primary" id="archived">Archived</button>
     </div>
     <div class="userpanel">
-        <span class="fs-4 fw-medium mr-10">{{ request.user.email }}</span>
+        <span class="fs-4 fw-medium">{{ request.user.email }}</span>
         <a class="btn btn-sm btn-outline-primary afloat" href="{% url 'logout' %}">Log Out</a>
     </div>
 </div>
